@@ -45,9 +45,11 @@ const Hero = () => {
 				{/* gradient end */}
 			</div>
 
+			{/* get started component start */}
 			<div className={`ss:hidden ${styles.flexCenter}`}>
 				<GetStarted />
 			</div>
+			{/* get started component end */}
 		</section>
 		/** hero section end */
 	);
