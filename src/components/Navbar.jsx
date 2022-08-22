@@ -56,4 +56,5 @@ const Navbar = () => {
 		/** navigation section end */
 	);
 };
+
 export default Navbar;

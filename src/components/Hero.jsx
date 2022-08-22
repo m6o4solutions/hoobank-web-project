@@ -54,4 +54,5 @@ const Hero = () => {
 		/** hero section end */
 	);
 };
+
 export default Hero;
