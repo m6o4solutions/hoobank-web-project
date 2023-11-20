@@ -38,7 +38,7 @@ jobs:
 
     environment:
       name: github-pages
-      url: https://hoo-bank.s3.co.ke
+      url: https://hoobank.s3.co.ke
 
     steps:
       - name: Download Production Artifact
