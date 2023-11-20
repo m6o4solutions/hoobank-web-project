@@ -6,8 +6,6 @@ Sample project to build and deploy a fully responsive website with a modern user
 
 The website is built in React.JS with Tailwind CSS to style the components.
 
-The project also puts into practice proper management of Git by organizing code into staging and production ready branches so that there is always a version of the code ready to go.
-
 Finally, the repetitive process of building and deploying the project to production is automated by using GitHub Actions for onward deployment to Firebase Hosting.
 
 ## Getting Started
@@ -44,4 +42,4 @@ yarn build
 2. Tailwind
 3. Vite.JS
 4. GitHub Actions
-5. Firebase Hosting
+5. GitHub Pages
