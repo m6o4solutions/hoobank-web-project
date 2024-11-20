@@ -1,4 +1,4 @@
-# HooBank Website
+# HooBank Web Project
 
 ## Description
 
@@ -6,7 +6,7 @@ Sample project to build and deploy a fully responsive website with a modern user
 
 The website is built in React.JS with Tailwind CSS to style the components.
 
-Finally, the repetitive process of building and deploying the project to production is automated by using GitHub Actions for onward deployment to Firebase Hosting.
+Finally, the repetitive process of building and deploying the project to production is automated by using the Netlify CI/CD pipeline.
 
 ## Getting Started
 
@@ -41,5 +41,4 @@ yarn build
 1. React.JS
 2. Tailwind
 3. Vite.JS
-4. GitHub Actions
-5. GitHub Pages
+4. Netlify
