@@ -45,7 +45,7 @@ const Footer = () => {
 
       <div className="flex w-full flex-col items-center justify-between border-t-[1px] border-t-[#3F3E45] pt-6 md:flex-row">
         <p className="text-center font-poppins text-[14px] font-normal leading-[27px] text-white md:text-[18px]">
-          Copyright Ⓒ 2023 HooBank. All Rights Reserved.
+          Copyright Ⓒ 2024 HooBank. All Rights Reserved.
         </p>
 
         <div className="mt-6 flex flex-row md:mt-0">
