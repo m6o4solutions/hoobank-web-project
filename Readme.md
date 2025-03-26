@@ -41,3 +41,4 @@ yarn build
 1. React.JS
 2. Tailwind
 3. Vite.JS
+4. Firebase Hosting
