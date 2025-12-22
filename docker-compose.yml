@@ -1,0 +1,18 @@
+services:
+  hoobank:
+      image: ghcr.io/m6o4solutions/hoobank-web-project:latest
+      container_name: hoobank
+      restart: unless-stopped
+      networks:
+        - traefik-network
+      labels:
+        - "traefik.enable=true"
+        - "traefik.http.routers.hoobank.rule=Host(`hoobank.m6o4solutions.com`)"
+        - "traefik.http.routers.hoobank.entrypoints=websecure"
+        - "traefik.http.routers.hoobank.tls.certresolver=letsencrypt"
+        - "traefik.http.services.hoobank.loadbalancer.server.port=80"
+
+networks:
+  traefik-network:
+    external: true
+    name: traefik-network
